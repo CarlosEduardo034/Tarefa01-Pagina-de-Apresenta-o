@@ -10,14 +10,18 @@
 <body>
     <header></header>
     <main>
-        <div class="top">
-            <h1>Pagina de Apresentação</h1>
-            <h2>Essa página foi criada com a finalidade de ser uma apresentação pessoal, requisitado pelo professor
-                Fernado como tarefa da matéria de desinvolvimento de sites</h2>
-        </div>
-        <div class="mid">
-            *conteúdo
-        </div>
+        <section class="container01">
+            <div class="top">
+                <h1>Pagina de Apresentação</h1>
+                <h2>Essa página foi criada com a finalidade de ser uma apresentação pessoal, requisitado pelo professor
+                    Fernado como tarefa da matéria de desinvolvimento de sites</h2>
+            </div>
+            <div class="mid">
+                <p>Olá sou Carlos Eduardo, sou técnico em informatica pelo IF Goiano - Campus Morrinhos, atualmente estou cursando o curso de Tecnólogo em Sistemas para Internt na mesma instituição e trabalho como projetista de sistemas fotovoltaicos e assistente administrativo na Oliveira Solar, também em Morrinhos. Segue um pouco mais sobre mim...</p>
+                
+            </div>
+        </section>
+        <section class="container02"></section>
     </main>
     <footer></footer>
 </body>
@@ -35,15 +39,29 @@
 
     main {
         height: 100vh;
+        width: 100vw;
+        display: flex;
+    }
+
+    .container01{
+        height: 100vh;
         width: 40vw;
-        padding-top: 20px;
-        padding-left: 30px;
         background-color: white;
+    }
+
+    .container02{
+        height: 100vh;
+        width: 60vw;
+        background: url('pixelart_koi.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .top {
         height: auto;
         width: 650px;
+        margin-top: 20px;
+        margin-left: 30px;
     }
 
     .top h1 {
@@ -54,6 +72,18 @@
     .top h2 {
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .mid{
+        height: auto;
+        width: 650px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    .presentation{
+        height: auto;
+        width: 650px;
     }
 </style>
 
