@@ -17,21 +17,56 @@
                     Fernado como tarefa da matéria de desinvolvimento de sites</h2>
             </div>
             <div class="mid">
-                <p>Olá sou Carlos Eduardo, sou técnico em informatica pelo IF Goiano - Campus Morrinhos, atualmente estou cursando o curso de Tecnólogo em Sistemas para Internt na mesma instituição e trabalho como projetista de sistemas fotovoltaicos e assistente administrativo na Oliveira Solar, também em Morrinhos. Segue um pouco mais sobre mim... <br><br> Gosto de música, comida e jogos...</p>
-                <ul class="list01">
+                <p>Olá sou Carlos Eduardo, sou técnico em informatica pelo IF Goiano - Campus Morrinhos, atualmente
+                    estou cursando o curso de Tecnólogo em Sistemas para Internt na mesma instituição e trabalho como
+                    projetista de sistemas fotovoltaicos e assistente administrativo na Oliveira Solar, também em
+                    Morrinhos. Segue um pouco mais sobre mim... <br><br> Gosto de música, comida e jogos...</p>
+                <ul class="list">
                     <li>
-                        <p>Em relação aos jogos, gosto desde o tabuleiro como o bom e velho D&d até os mais atuais eletrônicos.</p>
+                        <p>Em relação aos jogos, gosto desde o tabuleiro como o bom e velho D&d até os mais atuais
+                            eletrônicos.</p>
                     </li>
                     <li>
-                        <p>Em relação a música, escuto rock no geral, principalmente heavy metal, artistas como Dio, Led Zeppelin e Black Sabbath, também toco alguns instrumentos, onde tenho a guitarra como instrumento principal e violão, baixo, teclado e ukulele como secundários.</p>
+                        <p>Em relação a música, escuto rock no geral, principalmente heavy metal, artistas como Dio, Led
+                            Zeppelin e Black Sabbath, também toco alguns instrumentos, onde tenho a guitarra como
+                            instrumento principal e violão, baixo, teclado e ukulele como secundários.</p>
                     </li>
                     <li>
                         <p>
-                            Em relação a comida, eu vivo para desvendar o seguinte questionamento... Qual é melhor, lazanha ou pizza? Acredito que não vou conseguir achar a resposta, mas até lá ambos seguem sendo minhas comidas favoritas.
+                            Em relação a comida, eu vivo para desvendar o seguinte questionamento... Qual é melhor,
+                            lazanha ou pizza? Acredito que não vou conseguir achar a resposta, mas até lá ambos seguem
+                            sendo minhas comidas favoritas.
                         </p>
                     </li>
                 </ul>
+                <br>
+                <p>Quando não estou no trabalho ou não estou no IF? <br> Sou cristão e frequento a igreja Católica,
+                    ocupa a maior parte do meu fim se semana, também toco o restante do tempo livre e as vezes desenho e
+                    pinto alguns rabiscos como passa tempo. Raramente leio livros, mas quando leio gosto de ler
+                    aventuras fantasiosas, como por exemplo O hobbit ou O Senhor dos Aneis, isso também se aplica para
+                    filmes. </p>
+                <br>
+                <ul class="list">
+                    <li>
+                        Filmes favoritos: O Senhor dos Aneis: O Retorno Do Rei - A Paixão de Cristo (Mel Gibson) -
+                        Transformers: O Último Cavaleiro
+                    </li>
+                    <li>
+                        Musicas favoritas: Stairwey to Heaven (Led Zeppelin) - Heaven and Hell (Black Sabbath) - All the
+                        Folls Sailed Away (Dio)
+                    </li>
+                    <li>
+                        Livros favoritos: O hobbit (J.R.R Tolkien) - O Dragão de Gelo (George R. R. Martin) - O
+                        Silmarilon (J.R.R Martin)
+                    </li>
+                    <li>
+                        Comidas favoritas: Pizza - Lazanha - Paçoca
+                    </li>
+                </ul>
+                <br>
+                <h3>Sem mais delongas, acabou...</h3>
             </div>
+
         </section>
         <section class="container02" alt="gif de carpas"></section>
     </main>
@@ -44,7 +79,7 @@
     }
 
     body {
-        height: 100vh;  
+        height: 100vh;
         width: 100vw;
         display: flex;
         justify-content: center;
@@ -58,7 +93,7 @@
         display: flex;
     }
 
-    .container01{
+    .container01 {
         height: 95vh;
         width: 40vw;
         background-color: white;
@@ -66,7 +101,7 @@
         border-bottom-left-radius: 10px;
     }
 
-    .container02{
+    .container02 {
         height: 95vh;
         width: 60vw;
         background: url('pixelart_koi.gif');
@@ -93,40 +128,45 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .mid{
+    .mid {
         height: auto;
         width: 35vw;
         margin-top: 20px;
         margin-left: 30px;
     }
 
-    .presentation{
+    .presentation {
         height: auto;
         width: 35vw;
     }
 
-    .list01{
+    .list {
         margin-left: 25px;
         width: 30vw;
     }
 
-    @media (max-width: 768px) {
-            main {
-                flex-direction: column;
-                height: auto;
-            }
+    .mid h3 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-            .container01 {
-                width: 100%;
-                height: auto;
-                min-height: 50vh;
-                border-top-right-radius: 10px;
-                border-bottom-right-radius: 10px;
-            }
-            .container02{
-                display: none;
-            }
+    @media (max-width: 768px) {
+        main {
+            flex-direction: column;
+            height: auto;
         }
+
+        .container01 {
+            width: 100%;
+            height: auto;
+            min-height: 50vh;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .container02 {
+            display: none;
+        }
+    }
 </style>
 
 </html>
